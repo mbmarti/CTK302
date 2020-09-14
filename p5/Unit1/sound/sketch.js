@@ -1,7 +1,7 @@
 var s;
 
 function preload() {
-  soundFormats(".mp3");
+  soundFormats("mp3");
   s = loadSound("assets/DarkAmbient.mp3");
 }
 
