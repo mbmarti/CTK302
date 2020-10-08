@@ -22,3 +22,7 @@ function mouseReleased() {
     s.loop();
   }
 }
+
+function touchStarted() {
+  getAudioContext().resume();
+}
