@@ -15,8 +15,8 @@ function setup() {
 function draw() {
   switch (state) {
     case 0:
-    background('red');
-    text("yell at this guy", 250, 250);
+    background('green');
+    text("yell at this guy", 175, 250);
     vol = mic.getLevel();
     if (vol >= 0.2) {
       state++
@@ -24,8 +24,8 @@ function draw() {
     break;
 
     case 1:
-    background('green');
-    text("uh oh, you've been detected! shhhhh\n" + countdown, 250, 250);
+    background('yellow');
+    text("uh oh, you've been detected! shhhhh\n" + countdown, 25, 250);
     vol = mic.getLevel();
     if (vol >= 0.1) {
       state++;
@@ -51,8 +51,8 @@ function draw() {
     break;
 
     case 2:
-    background('blue');
-    text("oh wow you got caught, click to reload", 250, 250);
+    background('red');
+    text("oh wow you got caught, click to reload", 25, 250);
     break;
   }
 }
