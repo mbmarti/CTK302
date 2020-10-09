@@ -12,7 +12,7 @@ function draw() {
   switch (state) {
     case 0:
     background('red');
-    text("Why did the chicken\ncross the road?", 250, 250, 350, 400);
+    text("What's the best thing\nabout Switzerland?", 250, 250, 350, 400);
     timer++;
     if (timer > 5*60) {
       state = 1;
@@ -22,7 +22,7 @@ function draw() {
 
     case 1:
     background('blue');
-    text("to get to the other side", 250, 250, 350, 400);
+    text("I don't know, but the\nflag's a huge plus", 250, 250, 350, 400);
     break;
   }
 }
