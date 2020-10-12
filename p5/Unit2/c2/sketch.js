@@ -13,7 +13,7 @@ function setup() {
 function draw() {
   vol = (mic.getLevel()).toFixed(2);
 
-  switch(state);
+  switch(state) {
     case 0:
     background('red');
     text("shhh!!!", 250, 250);
@@ -31,4 +31,5 @@ function draw() {
       timer = 0;
     }
     break;
+  }
 }
