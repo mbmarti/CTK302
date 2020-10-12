@@ -11,8 +11,6 @@ function setup() {
 }
 
 function draw() {
-  background(100);
-
   vol = (mic.getLevel()).toFixed(2);
 
   switch(state);
